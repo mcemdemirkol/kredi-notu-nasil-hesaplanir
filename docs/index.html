@@ -291,7 +291,7 @@ IV(değişken)  = Σ ( iyi payı − kötü payı ) · WoE</div>
       <div class="tabs" id="woe-tabs" role="group" aria-label="Değişken"></div>
       <p class="note" id="woe-desc"></p>
       <div class="scroll"><table id="woe-table"></table></div>
-      <h3>Hangi değişken ne kadar bilgi taşıyor</h3>
+      <h3 id="iv">Hangi değişken ne kadar bilgi taşıyor</h3>
       <div class="ivrows" id="iv-rows"></div>
       <p class="note">Yaygın başparmak kuralı (Siddiqi): 0,02'nin altı işe yaramaz, 0,1–0,3 orta, 0,3'ün üstü güçlü. 0,5'in üstü genelde şüphe uyandırır. Buradaki iki gecikme değişkeni <span id="iv-top"></span> çıkıyor, çünkü geçen ay gecikmiş olmak gelecek ayki temerrüdün neredeyse ön habercisi.</p>
       <div class="callout">Cinsiyet, medeni durum, yaş ve eğitim <b>modele alınmadı</b>. Bir kredi kararını bunlara dayandırmak ayrımcılık riski taşır; üstelik bu veride taşıdıkları bilgi de çok az.</div>
@@ -333,13 +333,13 @@ IV(değişken)  = Σ ( iyi payı − kötü payı ) · WoE</div>
       <p id="scale-why"></p>
       <div class="scroll"><table id="scale-table"></table></div>
       <p class="note">Sağdaki sütun Findeks notu değildir. Aynı modelin, aynı müşterilerin başka bir cetvelle okunuşudur.</p>
-      <h3>Puan ayırıyor mu</h3>
+      <h3 id="ayirma">Puan ayırıyor mu</h3>
       <figure>
         <div class="t">Skor dağılımı <span>test verisi · her grubun kendi içindeki payı</span></div>
         <svg class="chart" id="dist" viewBox="0 0 680 240" role="img" aria-label="İyi ve kötü müşterilerin skor dağılımı"></svg>
         <div class="inline-legend" style="margin-top:6px"><span><i style="background:var(--good)"></i>iyi müşteri</span><span><i style="background:var(--bad)"></i>kötü müşteri</span></div>
       </figure>
-      <h3>Puan tutuyor mu</h3>
+      <h3 id="tutma">Puan tutuyor mu</h3>
       <p>Test verisi skora göre <span id="n-bands"></span> dilime ayrıldı. Her dilimde gerçekleşen temerrüt oranı, skorun kendi söylediği olasılıkla yan yana.</p>
       <div class="scroll"><table id="band-table"></table></div>
     </section>
