@@ -110,6 +110,10 @@ Yeh, I-C. ve Lien, C-H. (2009). The comparisons of data mining techniques for th
 
 Findeks bileşen ağırlıkları: [findeks.com](https://www.findeks.com/urunler/findeks-kredi-notu), erişim 3 Ekim 2026.
 
+## Aynı seriden
+
+[Kredinin gerçek maliyeti](https://github.com/mcemdemirkol/kredinin-gercek-maliyeti) — KKDF, BSMV ve tahsis ücreti eklenince bir kredinin taksiti ve yıllık maliyet oranı.
+
 ## English summary
 
 An end-to-end credit scorecard on the UCI "Default of Credit Card Clients" data: manual binning, WoE/IV, logistic regression on WoE, points scaling (600 at 50:1 odds, PDO 20), and an interactive scorecard page. Test Gini 0.503 against 0.548 for a gradient boosting benchmark on raw features. The page is in Turkish; run `python model/build_scorecard.py` to regenerate every model number it shows.
